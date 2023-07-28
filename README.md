@@ -34,7 +34,7 @@ To install and run the project, follow these steps:
 ## Usage
 
 To use the project, check the routes in the `api` directory.
-link to the postman collection: https://documenter.getpostman.com/view/9492848/2s9XxsWGsy
+link to the postman collection: [here](https://documenter.getpostman.com/view/9492848/2s9XxsWGsy)
 
 ## Troubleshooting
 
