@@ -61,12 +61,8 @@ export class AuthController {
                 return this.handleResponse(400, "invalid email or password");
             }
 
-            console.log("user", await hash(data.password));
-
             // verify password
             const passwordMatch = await verifyHash(user.password, data.password);
-
-            console.log(passwordMatch);
 
             if (!passwordMatch) {
                 return this.handleResponse(400, "invalid email or password");
