@@ -20,7 +20,7 @@ async function startServer() {
         .listen(port, () => {
             logger.info(`
       ################################################
-      🪐  Server listening on port: ${port} 🪐
+          🪐  Server listening on port: ${port} 🪐
       ################################################
     `);
         })

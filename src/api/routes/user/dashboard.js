@@ -22,4 +22,4 @@ export default app => {
             return handleResponse(500, "could not get dashboard", null, res);
         }
     });
-}
+};

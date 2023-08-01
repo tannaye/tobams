@@ -11,7 +11,7 @@ export default ({ app }) => {
      * @TODO Explain why they are here
      */
     app.get("/", (req, res) => {
-        res.json({ message: "node js boiler plate", error: false });
+        res.json({ message: "Tobams API is Active ", error: false });
     });
 
     app.get("/status", (req, res) => {
