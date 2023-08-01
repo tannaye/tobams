@@ -58,14 +58,14 @@ export class AuthController {
             );
 
             if (!user) {
-                return this.handleResponse(400, "invalid email or password");
+                return this.handleResponse(400, "invalid username or password");
             }
 
             // verify password
             const passwordMatch = await verifyHash(user.password, data.password);
 
             if (!passwordMatch) {
-                return this.handleResponse(400, "invalid email or password");
+                return this.handleResponse(400, "invalid username or password");
             }
 
             // generate jwt token
